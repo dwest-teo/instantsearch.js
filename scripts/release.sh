@@ -86,8 +86,8 @@ cd ..
 rm -rf dist/
 )
 
-DOCS_MOUNT_POINT=/instantsearch.js/react/ NODE_ENV=production DOCS_DIST=docs/react/ npm run docs:build
-npm run docs:publish
+# DOCS_MOUNT_POINT=/instantsearch.js/react/ NODE_ENV=production DOCS_DIST=docs/react/ npm run docs:build
+# npm run docs:publish
 
 printf "Release:
 Package was published to npm.

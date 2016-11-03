@@ -16,7 +16,7 @@
     "storybook": "NODE_ENV=development start-storybook -p 6006 -c ./storybook -s ./storybook/public",
     "build-storybook": "NODE_ENV=production build-storybook -s ./storybook/public -o docs/react/storybook -c ./storybook"
   },
-  "repository": "algolia/instantsearch.js",
+  "repository": "dwest-teo/instantsearch.js",
   "dependencies": {
     "@kadira/react-storybook-addon-info": "^3.3.0",
     "@kadira/storybook": "^2.27.0",
